@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import { earthquakeDamage } from "./src/earthquake"
+import { earthquakeDamage } from "../earthquake.js"
 
 export default function EarthquakeTest(){
     return (

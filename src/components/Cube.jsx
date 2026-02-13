@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import { cubeVolume } from "./src/cube"
+import { cubeVolume } from "../cube.js"
 
 export default function CubeTest(){
     return (

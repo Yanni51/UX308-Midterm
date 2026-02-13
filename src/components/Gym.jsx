@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import { gymCost } from "./src/gym"
+import { gymCost } from "../gym.js"
 
 export default function GymTest(){
     return (

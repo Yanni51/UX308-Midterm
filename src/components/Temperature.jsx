@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import { fahrenheitToCelsius } from "./src/temperature"
+import { fahrenheitToCelsius } from "../temperature.js"
 
 export default function TemperatureTest(){
     return (

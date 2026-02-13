@@ -1,7 +1,7 @@
 import { View, Text } from "react-native"
-import { coinTotal } from "./src/coins"
+import { coinTotal } from "../coins.js"
 
-export default function CoinsTest(){
+export function CoinsTest(){
     return (
         <View style={{ padding: 20 }}>
             <Text style={{ fontSize: 20, fontWeight: "bold" }}>Coin Total</Text>
