@@ -1,7 +1,7 @@
 import { View, Text } from "react-native"
 import { cubeVolume } from "../cube.js"
 
-export default function CubeTest(){
+export function CubeTest(){
     return (
         <View>
             <Text>2m cube = {cubeVolume(2)} m³</Text>

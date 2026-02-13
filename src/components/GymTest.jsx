@@ -1,7 +1,7 @@
 import { View, Text } from "react-native"
 import { gymCost } from "../gym.js"
 
-export default function GymTest(){
+export function GymTest(){
     return (
         <View>
         <Text>0 friends: ${gymCost(100,0)}</Text>

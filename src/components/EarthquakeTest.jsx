@@ -1,7 +1,7 @@
 import { View, Text } from "react-native"
 import { earthquakeDamage } from "../earthquake.js"
 
-export default function EarthquakeTest(){
+export  function EarthquakeTest(){
     return (
         <View>
             <Text>4.0 → {earthquakeDamage(4)}</Text>

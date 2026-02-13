@@ -1,13 +1,11 @@
+import { View } from 'react-native';
 import {Hello} from './Hello.jsx';
-import { SnowRemoval } from './SnowRemoval.jsx';
-import { CoinsTest } from './Coins.jsx';
-
-import {
-  View,
-} from 'react-native';
-import CubeTest from './Cube.jsx';
-import GymTest from './Gym.jsx';
-import TemperatureTest from './Temperature.jsx';
+import {SnowRemoval} from './SnowRemoval.jsx';
+import {CoinsTest} from './CoinsTest.jsx';
+import {CubeTest} from './CubeTest.jsx';
+import {GymTest} from './GymTest.jsx';
+import {TemperatureTest} from './TemperatureTest.jsx';
+import {EarthquakeTest} from './EarthquakeTest.jsx';
 
 export default function App() {
   return (
@@ -16,12 +14,11 @@ export default function App() {
       <Hello />
       <Hello name="Biff" />
       <SnowRemoval cm={3} />
-      <CoinsTest></CoinsTest>
-      <CubeTest></CubeTest>
-      <EarthquaqeTest></EarthquaqeTest>
-      <GymTest></GymTest>
-      <TemperatureTest></TemperatureTest>
+      <CoinsTest />
+      <CubeTest />
+      <EarthquakeTest />
+      <GymTest />
+      <TemperatureTest />
     </View>
   );
 }
-
